@@ -1,0 +1,197 @@
+*{
+    font-family: sans-serif;
+}
+
+#box{
+    
+    display: flex;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    gap: 20px;
+    margin-top: 60px ;
+    margin-bottom: 100px;
+    
+}
+#box1{
+   
+    display: grid;
+    width: 33%;
+    height: 100%;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,285px);
+    gap: 20px;
+    
+}
+
+#box2{
+    
+    display: grid;
+    width: 33%;
+    height: 100%;
+}
+#box3{
+    
+    display: grid;
+    width: 33%;
+    height: 100%;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,285px);
+    gap: 20px;
+}
+#box1>div{
+    background-color:gray;
+}
+#box2{
+    background-color:gray;
+}
+#box3>div{
+    background-color:gray;
+}
+#box1>div>img{
+   width:100%;
+   height: 100%; 
+}
+#box1>div>img:hover{
+    opacity: 0.4;
+}
+#box2>img:hover{
+    opacity: 0.4;
+}
+#box3>div>img:hover{
+    opacity: 0.4;
+}
+#box2>img{
+    width:100%; 
+    height: 100%;
+ }
+ #box3>div>img{
+    width:100%; 
+    height: 100%;
+ }
+ h1{
+     text-align: center;
+     color: #444444;
+     
+     font-size: 40px;
+ }
+ p{
+    text-align: center;
+    font-size: 20px;
+    color: #444444;
+ }
+ #div1{
+     background-image: url(https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Zone-Newsletter_2000x.jpg?v=1643375292);
+     height: 600px;
+     margin-bottom: 120px;
+     margin-top: 50px;
+     padding-top: 50px;
+    }
+
+    #subscribe{
+        width: 28%;  
+        height: 300px;
+        margin-top: 90px;
+        margin-left: 170px;
+        background-color: white;
+        border-radius: 30px;
+        padding: 40px 40px 50px 40px ;
+        
+    }
+ #text{
+     
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     
+ }
+ #subscribe > p{
+font-size: 20px;
+line-height:30px ;
+text-align: start;
+margin-top: 50px;
+width: 550px;
+
+color: #444444;
+ }
+ #subscribe>h3{
+    color: #444444;
+    font-size: 18px;
+ }
+ #input{
+     
+     margin-top: 50px;
+     
+ }
+ #mail{
+     font-size: 20px;
+     border-radius: 30px;
+     width: 50%;
+     height: 55px;
+     border: 0.5px solid grey;
+     
+ }
+ 
+ #btn{
+
+background-color:#3c07ff ;
+font-size: 16px;
+border-radius: 30px;
+width: 35%;
+height: 60px;
+color: white;
+border: 0px;
+margin-left: 50px;
+font-weight: bold;
+cursor: pointer;
+ }
+#container{
+    background-color: #444444;
+    /* border: 5px solid black; */
+    margin-bottom: -50px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    
+
+}
+#container>div:nth-child(1){
+    margin-left: 120px;
+}
+#container>div:nth-child(2){
+    
+    margin-left: 450px;
+    margin-bottom: 130px;
+    
+}
+#club{
+    width: 28%;  
+        height: 300px;
+        margin-top: 90px;
+        margin-left: 170px;
+        padding: 40px 40px 50px 40px ;
+}
+#btn1{
+    background-color:#ffcf00 ;
+font-size: 16px;
+border-radius: 30px;
+width: 35%;
+height: 60px;
+color: #444444;
+border: 0px;
+
+font-weight: bold;
+cursor: pointer;
+}
+#club>h1{
+    color: white;
+    text-align: start;
+}
+#club>p{
+    color: white;
+    text-align: start;
+    width: 150%;
+}
+#container>div>img{
+    width: 480px;
+}
