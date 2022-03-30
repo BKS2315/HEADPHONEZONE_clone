@@ -195,3 +195,42 @@ cursor: pointer;
 #container>div>img{
     width: 480px;
 }
+#value{
+    display: flex;
+    height: 400px;
+    background-color: #d6cff9;
+    padding: 40px 40px 0px 40px;
+    
+}
+#value>div{
+    width: 20%;
+    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+}
+#value>div>h4{
+    text-align: center;
+    font-size: 30px;
+    color: #444444;
+    margin-bottom: -5px;
+}
+#value>div>p{
+    text-align: center;
+    font-size: 18px;
+    color: #444444;
+    line-height: 30px;
+    font-weight: 550;
+    margin-bottom: -80px;
+    width: 300px;
+}
+#value>div>h2{
+    text-align: center;
+    margin-top: -75px;
+    font-size: 40px;
+    color: #444444;
+}
+
+
